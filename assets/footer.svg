@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-labelledby="footer-title footer-desc">
+  <title id="footer-title">Thanks for visiting</title>
+  <desc id="footer-desc">Animated dark footer with a terminal exit prompt, a pulse waveform, and a link to the GitHub profile.</desc>
+  <defs>
+    <linearGradient id="f-name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9d5ff"/>
+      <stop offset="0.5" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="f-sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="f-wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <radialGradient id="f-glow-purple">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="f-glow-green">
+      <stop offset="0" stop-color="#34d399" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="f-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#2a2146" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Liberation Mono', 'Courier New', monospace; }
+    .sans { font-family: 'Segoe UI', Inter, Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .g { fill: #34d399; }
+    .m { fill: #6b7280; }
+    .p { fill: #22d3ee; }
+    .blob { transform-box: fill-box; transform-origin: center; animation: drift 16s ease-in-out infinite; }
+    @keyframes drift {
+      0%, 100% { transform: translate(0, 0); }
+      50% { transform: translate(-30px, 16px); }
+    }
+    .rise { animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .line { opacity: 0; animation: fade-line 0.5s ease-out forwards; }
+    @keyframes fade-line {
+      from { opacity: 0; transform: translateX(-6px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    .wave { stroke-dasharray: 18 100; animation: wave 3.4s linear infinite; }
+    @keyframes wave {
+      from { stroke-dashoffset: 20; }
+      to { stroke-dashoffset: -100; }
+    }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse {
+      0%, 100% { opacity: 0.35; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.35); }
+    }
+    .sweep { animation: sweep 5s linear infinite; }
+    @keyframes sweep {
+      from { transform: translateX(-420px); }
+      to { transform: translateX(1200px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .line { opacity: 1; }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="170" fill="#05050a"/>
+  <rect width="1200" height="170" fill="url(#f-grid)" opacity="0.4"/>
+  <circle class="blob" cx="200" cy="80" r="260" fill="url(#f-glow-purple)"/>
+  <circle class="blob" cx="1000" cy="70" r="240" fill="url(#f-glow-green)"/>
+
+  <!-- Left: sign-off -->
+  <text class="mono line g" x="60" y="52" font-size="15" style="animation-delay: 0.2s">$ exit 0</text>
+  <text class="sans rise" x="58" y="104" font-size="40" font-weight="700" fill="url(#f-name)" style="animation-delay: 0.4s">Thanks for visiting.</text>
+  <text class="mono line" x="60" y="132" font-size="15" style="animation-delay: 0.9s"><tspan class="m">github.com/</tspan><tspan class="p">acharj1296</tspan></text>
+
+  <!-- Right: pulse waveform and bracket mark -->
+  <text class="mono" x="1010" y="120" font-size="64" font-weight="700" fill="#a855f7" opacity="0.22">&lt;/&gt;</text>
+  <path class="wave" pathLength="100" d="M700 92 H760 L776 64 L794 118 L812 40 L830 100 L846 92 H930 L946 74 L962 110 L978 92 H1140" fill="none" stroke="url(#f-wave)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M700 92 H760 L776 64 L794 118 L812 40 L830 100 L846 92 H930 L946 74 L962 110 L978 92 H1140" fill="none" stroke="#1f1a33" stroke-width="1"/>
+  <circle class="pulse" cx="700" cy="92" r="4" fill="#a855f7"/>
+  <circle class="pulse" cx="1140" cy="92" r="4" fill="#34d399" style="animation-delay: 1.2s"/>
+
+  <!-- Bottom accent -->
+  <rect x="0" y="0" width="1200" height="2" fill="url(#f-sweep)" opacity="0.8"/>
+  <rect class="sweep" x="0" y="166" width="420" height="4" fill="url(#f-sweep)"/>
+</svg>

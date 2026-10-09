@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="150" viewBox="0 0 880 150" role="img" aria-label="Contribution streak for acharj1296">
+  <title>Contribution streak for acharj1296</title>
+  <style>
+  .sans { font-family: 'Segoe UI', Inter, Roboto, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Liberation Mono', 'Courier New', monospace; }
+  .title { font: 600 13px 'JetBrains Mono', 'Fira Code', Consolas, monospace; fill: #22d3ee; letter-spacing: 0.5px; }
+  .label { font: 400 13px 'Segoe UI', Inter, Roboto, Arial, sans-serif; fill: #9ca3af; }
+  .value { font: 700 26px 'Segoe UI', Inter, Roboto, Arial, sans-serif; fill: #f3f4f6; }
+  .big { font: 800 42px 'Segoe UI', Inter, Roboto, Arial, sans-serif; }
+  .small { font: 400 12px 'JetBrains Mono', Consolas, monospace; fill: #6b7280; }
+  .grow { transform-box: fill-box; transform-origin: left center; animation: grow 1.2s ease-out both; }
+  @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  @media (prefers-reduced-motion: reduce) { .grow { animation: none; } }
+</style>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="879" height="149" rx="14" fill="#0a0a12" stroke="#2d2550"/>
+  <rect x="24" y="0" width="832" height="2" fill="url(#accent)" opacity="0.8"/>
+  <text class="title" x="24" y="36">CONTRIBUTION STREAK</text>
+  <text class="big" x="147" y="98" text-anchor="middle" style="fill: #22d3ee">1 day</text>
+  <text class="label" x="147" y="126" text-anchor="middle">Current streak</text>
+  <text class="big" x="440" y="98" text-anchor="middle" style="fill: #a855f7">2 days</text>
+  <text class="label" x="440" y="126" text-anchor="middle">Longest streak</text>
+  <text class="big" x="733" y="98" text-anchor="middle" style="fill: #34d399">12</text>
+  <text class="label" x="733" y="126" text-anchor="middle">Contributions (last year)</text>
+  <line x1="293" y1="60" x2="293" y2="130" stroke="#2d2550"/>
+  <line x1="586" y1="60" x2="586" y2="130" stroke="#2d2550"/>
+</svg>

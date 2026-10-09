@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" role="img" aria-labelledby="terminal-title terminal-desc">
+  <title id="terminal-title">Terminal introduction</title>
+  <desc id="terminal-desc">A terminal-style summary: who I am, what I focus on, and where my featured projects live.</desc>
+  <defs>
+    <linearGradient id="term-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Liberation Mono', 'Courier New', monospace; font-size: 16px; }
+    .k { fill: #c084fc; }
+    .s { fill: #34d399; }
+    .p { fill: #22d3ee; }
+    .t { fill: #e5e7eb; }
+    .m { fill: #6b7280; }
+    .g { fill: #34d399; }
+    .out { fill: #9ca3af; }
+    .line { opacity: 0; animation: reveal 0.45s ease-out forwards; }
+    @keyframes reveal {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .caret { animation: blink 1s steps(1, end) infinite; }
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .line { opacity: 1; }
+    }
+  </style>
+
+  <!-- Window -->
+  <rect x="0.75" y="0.75" width="898.5" height="328.5" rx="14" fill="#0b0b14" stroke="url(#term-border)" stroke-width="1.5"/>
+  <path d="M1 28 V14 a13 13 0 0 1 13 -13 H886 a13 13 0 0 1 13 13 V28 Z" fill="#14112b"/>
+  <line x1="1" y1="28.5" x2="899" y2="28.5" stroke="#2a2146"/>
+  <circle cx="24" cy="15" r="6" fill="#f472b6"/>
+  <circle cx="44" cy="15" r="6" fill="#facc15"/>
+  <circle cx="64" cy="15" r="6" fill="#34d399"/>
+  <text class="mono m" x="450" y="20" text-anchor="middle" style="font-size: 13px">arjun@dev: ~</text>
+
+  <!-- Session -->
+  <g class="mono">
+    <text class="line" x="34" y="66" style="animation-delay: 0.2s"><tspan class="g">$ </tspan><tspan class="t">whoami</tspan></text>
+    <text class="line" x="34" y="92" style="animation-delay: 0.7s"><tspan class="out">Arjun Acharya</tspan></text>
+
+    <text class="line" x="34" y="126" style="animation-delay: 1.2s"><tspan class="g">$ </tspan><tspan class="t">cat about.txt</tspan></text>
+    <text class="line" x="34" y="152" style="animation-delay: 1.7s"><tspan class="out">Computer Engineering student building full-stack web apps</tspan></text>
+    <text class="line" x="34" y="176" style="animation-delay: 2.1s"><tspan class="out">with TypeScript, React, and Next.js, and exploring automation.</tspan></text>
+
+    <text class="line" x="34" y="210" style="animation-delay: 2.7s"><tspan class="g">$ </tspan><tspan class="t">ls ~/projects</tspan></text>
+    <text class="line" x="34" y="236" style="animation-delay: 3.2s"><tspan class="p">MyMail</tspan><tspan class="m">    </tspan><tspan class="p">arena-ai-mailbox</tspan><tspan class="m">    </tspan><tspan class="p">Jarvis</tspan></text>
+
+    <text class="line" x="34" y="270" style="animation-delay: 3.8s"><tspan class="g">$ </tspan><tspan class="t">echo $FOCUS</tspan></text>
+    <text class="line" x="34" y="296" style="animation-delay: 4.3s"><tspan class="k">AI</tspan><tspan class="m"> · </tspan><tspan class="k">Automation</tspan><tspan class="m"> · </tspan><tspan class="k">Linux &amp; DevOps</tspan><tspan class="m"> · </tspan><tspan class="k">Minecraft plugins</tspan></text>
+  </g>
+  <rect class="caret" x="34" y="306" width="10" height="18" fill="#34d399"/>
+</svg>

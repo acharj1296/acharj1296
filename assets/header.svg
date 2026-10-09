@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="header-title header-desc">
+  <title id="header-title">Arjun Acharya - Developer</title>
+  <desc id="header-desc">Animated dark banner introducing Arjun Acharya, a Computer Engineering student and full-stack developer, with a terminal-style code panel.</desc>
+  <defs>
+    <linearGradient id="h-name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e9d5ff"/>
+      <stop offset="0.45" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="h-sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="h-glow-purple">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="h-glow-cyan">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="h-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#2a2146" stroke-width="1"/>
+    </pattern>
+    <filter id="h-soft" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="h-clip-type">
+      <rect x="60" y="190" width="0" height="44">
+        <animate attributeName="width" from="0" to="343" begin="1s" dur="1.8s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Liberation Mono', 'Courier New', monospace; }
+    .sans { font-family: 'Segoe UI', Inter, Roboto, 'Helvetica Neue', Arial, sans-serif; }
+    .k { fill: #c084fc; }
+    .s { fill: #34d399; }
+    .p { fill: #22d3ee; }
+    .t { fill: #e5e7eb; }
+    .m { fill: #6b7280; }
+    .g { fill: #34d399; }
+    .blob { transform-box: fill-box; transform-origin: center; animation: drift 14s ease-in-out infinite; }
+    .blob-2 { animation-duration: 18s; animation-direction: reverse; }
+    @keyframes drift {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      50% { transform: translate(40px, -24px) scale(1.08); }
+    }
+    .rise { animation: rise 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(14px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .line { opacity: 0; animation: fade-line 0.5s ease-out forwards; }
+    @keyframes fade-line {
+      from { opacity: 0; transform: translateX(-6px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    .caret { animation: blink 1s steps(1, end) infinite; }
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+    .sweep { animation: sweep 5s linear infinite; }
+    @keyframes sweep {
+      from { transform: translateX(-420px); }
+      to { transform: translateX(1200px); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .line { opacity: 1; }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="300" fill="#05050a"/>
+  <rect width="1200" height="300" fill="url(#h-grid)" opacity="0.45"/>
+  <circle class="blob" cx="170" cy="120" r="300" fill="url(#h-glow-purple)"/>
+  <circle class="blob blob-2" cx="1040" cy="90" r="320" fill="url(#h-glow-cyan)"/>
+  <rect x="0" y="0" width="1200" height="2" fill="url(#h-sweep)" opacity="0.8"/>
+  <rect class="sweep" x="0" y="296" width="420" height="4" fill="url(#h-sweep)"/>
+
+  <!-- Left column: identity -->
+  <text class="mono line" x="60" y="92" font-size="16" style="animation-delay: 0.2s">
+    <tspan class="g">arjun@dev</tspan><tspan class="m">:</tspan><tspan class="p">~</tspan><tspan class="m">$ </tspan><tspan class="t">whoami</tspan>
+  </text>
+
+  <text class="sans rise" x="56" y="176" font-size="74" font-weight="800" fill="url(#h-name)" filter="url(#h-soft)" style="animation-delay: 0.3s">Arjun Acharya</text>
+
+  <!-- Typewriter line (reveals once, then caret keeps blinking) -->
+  <g clip-path="url(#h-clip-type)">
+    <text class="mono" x="60" y="224" font-size="26" fill="#22d3ee" textLength="343" lengthAdjust="spacingAndGlyphs"><tspan fill="#34d399">&gt; </tspan>Full-Stack Developer</text>
+  </g>
+  <rect class="caret" x="60" y="196" width="3" height="32" fill="#22d3ee">
+    <animate attributeName="x" from="60" to="403" begin="1s" dur="1.8s" fill="freeze"/>
+  </rect>
+
+  <text class="mono line" x="60" y="256" font-size="16" fill="#9ca3af" style="animation-delay: 3s">TypeScript  ·  Automation  ·  Linux &amp; DevOps</text>
+
+  <!-- Right column: terminal panel -->
+  <g class="line" style="animation-delay: 0.6s">
+    <rect x="668" y="40" width="480" height="226" rx="14" fill="#0b0b14" stroke="#3b2a6b" stroke-width="1.2"/>
+    <path d="M669 54 a13 13 0 0 1 13 -13 H1134 a13 13 0 0 1 13 13 V68 H669 Z" fill="#14112b"/>
+    <circle cx="690" cy="54" r="5" fill="#f472b6"/>
+    <circle cx="706" cy="54" r="5" fill="#facc15"/>
+    <circle cx="722" cy="54" r="5" fill="#34d399"/>
+    <text class="mono m" x="1126" y="58" font-size="12" text-anchor="end">~/arjun/dev.ts</text>
+  </g>
+
+  <g class="mono" font-size="15">
+    <text class="line" x="692" y="94" style="animation-delay: 1.0s"><tspan class="k">const</tspan><tspan class="t"> dev = {</tspan></text>
+    <text class="line" x="692" y="115" style="animation-delay: 1.35s"><tspan class="t">  </tspan><tspan class="p">name</tspan><tspan class="m">: </tspan><tspan class="s">"Arjun Acharya"</tspan><tspan class="m">,</tspan></text>
+    <text class="line" x="692" y="136" style="animation-delay: 1.7s"><tspan class="t">  </tspan><tspan class="p">role</tspan><tspan class="m">: </tspan><tspan class="s">"Full-Stack Developer"</tspan><tspan class="m">,</tspan></text>
+    <text class="line" x="692" y="157" style="animation-delay: 2.05s"><tspan class="t">  </tspan><tspan class="p">stack</tspan><tspan class="m">: [</tspan><tspan class="s">"TypeScript"</tspan><tspan class="m">, </tspan><tspan class="s">"Next.js"</tspan><tspan class="m">],</tspan></text>
+    <text class="line" x="692" y="178" style="animation-delay: 2.4s"><tspan class="t">  </tspan><tspan class="p">focus</tspan><tspan class="m">: [</tspan><tspan class="s">"Automation"</tspan><tspan class="m">, </tspan><tspan class="s">"DevOps"</tspan><tspan class="m">],</tspan></text>
+    <text class="line" x="692" y="199" style="animation-delay: 2.75s"><tspan class="t">  </tspan><tspan class="p">status</tspan><tspan class="m">: </tspan><tspan class="s">"building"</tspan><tspan class="m">,</tspan></text>
+    <text class="line" x="692" y="220" style="animation-delay: 3.1s"><tspan class="t">};</tspan></text>
+    <text class="line" x="692" y="246" style="animation-delay: 3.45s"><tspan class="g">$ </tspan><tspan class="t">npm run dev</tspan></text>
+  </g>
+  <rect class="caret" x="812" y="232" width="9" height="17" fill="#34d399" style="animation-delay: 0s"/>
+</svg>
