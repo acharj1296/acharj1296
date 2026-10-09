@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="226" viewBox="0 0 440 226" role="img" aria-label="Top programming languages across public repositories">
+  <title>Top programming languages across public repositories</title>
+  <style>
+  .sans { font-family: 'Segoe UI', Inter, Roboto, 'Helvetica Neue', Arial, sans-serif; }
+  .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Liberation Mono', 'Courier New', monospace; }
+  .title { font: 600 13px 'JetBrains Mono', 'Fira Code', Consolas, monospace; fill: #22d3ee; letter-spacing: 0.5px; }
+  .label { font: 400 13px 'Segoe UI', Inter, Roboto, Arial, sans-serif; fill: #9ca3af; }
+  .value { font: 700 26px 'Segoe UI', Inter, Roboto, Arial, sans-serif; fill: #f3f4f6; }
+  .big { font: 800 42px 'Segoe UI', Inter, Roboto, Arial, sans-serif; }
+  .small { font: 400 12px 'JetBrains Mono', Consolas, monospace; fill: #6b7280; }
+  .grow { transform-box: fill-box; transform-origin: left center; animation: grow 1.2s ease-out both; }
+  @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  @media (prefers-reduced-motion: reduce) { .grow { animation: none; } }
+</style>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="439" height="225" rx="14" fill="#0a0a12" stroke="#2d2550"/>
+  <rect x="24" y="0" width="392" height="2" fill="url(#accent)" opacity="0.8"/>
+  <text class="title" x="24" y="36">TOP LANGUAGES</text>
+  <rect x="24" y="58" width="392" height="12" rx="6" fill="#17152b"/>
+  <rect class="grow" x="24.00" y="58" width="385.55" height="12" fill="#3178c6" style="animation-delay: 0.0s"/><rect class="grow" x="409.55" y="58" width="4.67" height="12" fill="#a855f7" style="animation-delay: 0.1s"/><rect class="grow" x="414.22" y="58" width="2.00" height="12" fill="#f1e05a" style="animation-delay: 0.2s"/><rect class="grow" x="416.22" y="58" width="2.00" height="12" fill="#5b7083" style="animation-delay: 0.3s"/>
+  <circle cx="29" cy="98" r="5" fill="#3178c6"/>
+  <text class="label" x="42" y="102" style="fill: #e5e7eb">TypeScript</text>
+  <text class="small" x="194" y="102" text-anchor="end" style="fill: #9ca3af">98.4%</text>
+  <circle cx="229" cy="98" r="5" fill="#a855f7"/>
+  <text class="label" x="242" y="102" style="fill: #e5e7eb">CSS</text>
+  <text class="small" x="394" y="102" text-anchor="end" style="fill: #9ca3af">1.2%</text>
+  <circle cx="29" cy="128" r="5" fill="#f1e05a"/>
+  <text class="label" x="42" y="132" style="fill: #e5e7eb">JavaScript</text>
+  <text class="small" x="194" y="132" text-anchor="end" style="fill: #9ca3af">0.3%</text>
+  <circle cx="229" cy="128" r="5" fill="#5b7083"/>
+  <text class="label" x="242" y="132" style="fill: #e5e7eb">Dockerfile</text>
+  <text class="small" x="394" y="132" text-anchor="end" style="fill: #9ca3af">0.2%</text>
+</svg>

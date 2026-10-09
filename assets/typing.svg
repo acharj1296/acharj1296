@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="80" viewBox="0 0 880 80" role="img" aria-labelledby="typing-title typing-desc">
+  <title id="typing-title">Typing animation: developer roles</title>
+  <desc id="typing-desc">Looping typewriter animation cycling through: Computer Engineering Student, Full-Stack Developer, AI and Automation Enthusiast, TypeScript Developer, Minecraft Plugin Developer, Linux and DevOps Enthusiast.</desc>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, 'Liberation Mono', 'Courier New', monospace; }
+    .caret { animation: blink 1s steps(1, end) infinite; }
+    @keyframes blink {
+      0%, 50% { opacity: 1; }
+      51%, 100% { opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .caret { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="t-border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Panel -->
+  <rect x="0.5" y="0.5" width="879" height="79" rx="12" fill="#07070d" stroke="url(#t-border)"/>
+
+  <!-- Slot 1: Computer Engineering Student (0.000 - 0.167 of the 24s loop) -->
+  <g>
+    <animate attributeName="opacity" calcMode="discrete" dur="24s" repeatCount="indefinite" keyTimes="0;0;0.1667;1" values="0;1;0;0"/>
+    <clipPath id="t-clip-0">
+      <rect x="206" y="0" width="0" height="80">
+        <animate attributeName="width" dur="24s" repeatCount="indefinite" keyTimes="0;0;0.0667;0.1417;0.1617;1" values="0;0;468;468;0;0"/>
+      </rect>
+    </clipPath>
+    <text class="mono" x="206" y="50" font-size="26" fill="#e5e7eb" textLength="468" lengthAdjust="spacingAndGlyphs" clip-path="url(#t-clip-0)"><tspan fill="#34d399">&gt; </tspan>Computer Engineering Student</text>
+    <rect class="caret" x="206" y="22" width="3" height="36" fill="#22d3ee">
+      <animate attributeName="x" dur="24s" repeatCount="indefinite" keyTimes="0;0;0.0667;0.1417;0.1617;1" values="206;206;674;674;206;206"/>
+    </rect>
+  </g>
+
+  <!-- Slot 2: Full-Stack Developer (0.167 - 0.333) -->
+  <g>
+    <animate attributeName="opacity" calcMode="discrete" dur="24s" repeatCount="indefinite" keyTimes="0;0.1667;0.3333;1" values="0;1;0;0"/>
+    <clipPath id="t-clip-1">
+      <rect x="268.5" y="0" width="0" height="80">
+        <animate attributeName="width" dur="24s" repeatCount="indefinite" keyTimes="0;0.1667;0.2333;0.3083;0.3283;1" values="0;0;343;343;0;0"/>
+      </rect>
+    </clipPath>
+    <text class="mono" x="268.5" y="50" font-size="26" fill="#e5e7eb" textLength="343" lengthAdjust="spacingAndGlyphs" clip-path="url(#t-clip-1)"><tspan fill="#34d399">&gt; </tspan>Full-Stack Developer</text>
+    <rect class="caret" x="268.5" y="22" width="3" height="36" fill="#22d3ee">
+      <animate attributeName="x" dur="24s" repeatCount="indefinite" keyTimes="0;0.1667;0.2333;0.3083;0.3283;1" values="268.5;268.5;611.5;611.5;268.5;268.5"/>
+    </rect>
+  </g>
+
+  <!-- Slot 3: AI &amp; Automation Enthusiast (0.333 - 0.500) -->
+  <g>
+    <animate attributeName="opacity" calcMode="discrete" dur="24s" repeatCount="indefinite" keyTimes="0;0.3333;0.5;1" values="0;1;0;0"/>
+    <clipPath id="t-clip-2">
+      <rect x="221.5" y="0" width="0" height="80">
+        <animate attributeName="width" dur="24s" repeatCount="indefinite" keyTimes="0;0.3333;0.4;0.475;0.495;1" values="0;0;437;437;0;0"/>
+      </rect>
+    </clipPath>
+    <text class="mono" x="221.5" y="50" font-size="26" fill="#e5e7eb" textLength="437" lengthAdjust="spacingAndGlyphs" clip-path="url(#t-clip-2)"><tspan fill="#34d399">&gt; </tspan>AI &amp; Automation Enthusiast</text>
+    <rect class="caret" x="221.5" y="22" width="3" height="36" fill="#22d3ee">
+      <animate attributeName="x" dur="24s" repeatCount="indefinite" keyTimes="0;0.3333;0.4;0.475;0.495;1" values="221.5;221.5;658.5;658.5;221.5;221.5"/>
+    </rect>
+  </g>
+
+  <!-- Slot 4: TypeScript Developer (0.500 - 0.667) -->
+  <g>
+    <animate attributeName="opacity" calcMode="discrete" dur="24s" repeatCount="indefinite" keyTimes="0;0.5;0.6667;1" values="0;1;0;0"/>
+    <clipPath id="t-clip-3">
+      <rect x="268.5" y="0" width="0" height="80">
+        <animate attributeName="width" dur="24s" repeatCount="indefinite" keyTimes="0;0.5;0.5667;0.6417;0.6617;1" values="0;0;343;343;0;0"/>
+      </rect>
+    </clipPath>
+    <text class="mono" x="268.5" y="50" font-size="26" fill="#e5e7eb" textLength="343" lengthAdjust="spacingAndGlyphs" clip-path="url(#t-clip-3)"><tspan fill="#34d399">&gt; </tspan>TypeScript Developer</text>
+    <rect class="caret" x="268.5" y="22" width="3" height="36" fill="#22d3ee">
+      <animate attributeName="x" dur="24s" repeatCount="indefinite" keyTimes="0;0.5;0.5667;0.6417;0.6617;1" values="268.5;268.5;611.5;611.5;268.5;268.5"/>
+    </rect>
+  </g>
+
+  <!-- Slot 5: Minecraft Plugin Developer (0.667 - 0.833) -->
+  <g>
+    <animate attributeName="opacity" calcMode="discrete" dur="24s" repeatCount="indefinite" keyTimes="0;0.6667;0.8333;1" values="0;1;0;0"/>
+    <clipPath id="t-clip-4">
+      <rect x="221.5" y="0" width="0" height="80">
+        <animate attributeName="width" dur="24s" repeatCount="indefinite" keyTimes="0;0.6667;0.7333;0.8083;0.8283;1" values="0;0;437;437;0;0"/>
+      </rect>
+    </clipPath>
+    <text class="mono" x="221.5" y="50" font-size="26" fill="#e5e7eb" textLength="437" lengthAdjust="spacingAndGlyphs" clip-path="url(#t-clip-4)"><tspan fill="#34d399">&gt; </tspan>Minecraft Plugin Developer</text>
+    <rect class="caret" x="221.5" y="22" width="3" height="36" fill="#22d3ee">
+      <animate attributeName="x" dur="24s" repeatCount="indefinite" keyTimes="0;0.6667;0.7333;0.8083;0.8283;1" values="221.5;221.5;658.5;658.5;221.5;221.5"/>
+    </rect>
+  </g>
+
+  <!-- Slot 6: Linux &amp; DevOps Enthusiast (0.833 - 1.000) -->
+  <g>
+    <animate attributeName="opacity" calcMode="discrete" dur="24s" repeatCount="indefinite" keyTimes="0;0.8333;1;1" values="0;1;0;0"/>
+    <clipPath id="t-clip-5">
+      <rect x="229.5" y="0" width="0" height="80">
+        <animate attributeName="width" dur="24s" repeatCount="indefinite" keyTimes="0;0.8333;0.9;0.975;0.995;1" values="0;0;421;421;0;0"/>
+      </rect>
+    </clipPath>
+    <text class="mono" x="229.5" y="50" font-size="26" fill="#e5e7eb" textLength="421" lengthAdjust="spacingAndGlyphs" clip-path="url(#t-clip-5)"><tspan fill="#34d399">&gt; </tspan>Linux &amp; DevOps Enthusiast</text>
+    <rect class="caret" x="229.5" y="22" width="3" height="36" fill="#22d3ee">
+      <animate attributeName="x" dur="24s" repeatCount="indefinite" keyTimes="0;0.8333;0.9;0.975;0.995;1" values="229.5;229.5;650.5;650.5;229.5;229.5"/>
+    </rect>
+  </g>
+</svg>
