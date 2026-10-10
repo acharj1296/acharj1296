@@ -22,17 +22,20 @@
   <rect x="24" y="0" width="392" height="2" fill="url(#accent)" opacity="0.8"/>
   <text class="title" x="24" y="36">TOP LANGUAGES</text>
   <rect x="24" y="58" width="392" height="12" rx="6" fill="#17152b"/>
-  <rect class="grow" x="24.00" y="58" width="385.55" height="12" fill="#3178c6" style="animation-delay: 0.0s"/><rect class="grow" x="409.55" y="58" width="4.67" height="12" fill="#a855f7" style="animation-delay: 0.1s"/><rect class="grow" x="414.22" y="58" width="2.00" height="12" fill="#f1e05a" style="animation-delay: 0.2s"/><rect class="grow" x="416.22" y="58" width="2.00" height="12" fill="#5b7083" style="animation-delay: 0.3s"/>
+  <rect class="grow" x="24.00" y="58" width="268.76" height="12" fill="#3178c6" style="animation-delay: 0.0s"/><rect class="grow" x="292.76" y="58" width="110.00" height="12" fill="#3572a5" style="animation-delay: 0.1s"/><rect class="grow" x="402.76" y="58" width="9.50" height="12" fill="#f1e05a" style="animation-delay: 0.2s"/><rect class="grow" x="412.26" y="58" width="3.27" height="12" fill="#a855f7" style="animation-delay: 0.3s"/><rect class="grow" x="415.53" y="58" width="2.00" height="12" fill="#60a5fa" style="animation-delay: 0.4s"/>
   <circle cx="29" cy="98" r="5" fill="#3178c6"/>
   <text class="label" x="42" y="102" style="fill: #e5e7eb">TypeScript</text>
-  <text class="small" x="194" y="102" text-anchor="end" style="fill: #9ca3af">98.4%</text>
-  <circle cx="229" cy="98" r="5" fill="#a855f7"/>
-  <text class="label" x="242" y="102" style="fill: #e5e7eb">CSS</text>
-  <text class="small" x="394" y="102" text-anchor="end" style="fill: #9ca3af">1.2%</text>
+  <text class="small" x="194" y="102" text-anchor="end" style="fill: #9ca3af">68.6%</text>
+  <circle cx="229" cy="98" r="5" fill="#3572a5"/>
+  <text class="label" x="242" y="102" style="fill: #e5e7eb">Python</text>
+  <text class="small" x="394" y="102" text-anchor="end" style="fill: #9ca3af">28.1%</text>
   <circle cx="29" cy="128" r="5" fill="#f1e05a"/>
   <text class="label" x="42" y="132" style="fill: #e5e7eb">JavaScript</text>
-  <text class="small" x="194" y="132" text-anchor="end" style="fill: #9ca3af">0.3%</text>
-  <circle cx="229" cy="128" r="5" fill="#5b7083"/>
-  <text class="label" x="242" y="132" style="fill: #e5e7eb">Dockerfile</text>
-  <text class="small" x="394" y="132" text-anchor="end" style="fill: #9ca3af">0.2%</text>
+  <text class="small" x="194" y="132" text-anchor="end" style="fill: #9ca3af">2.4%</text>
+  <circle cx="229" cy="128" r="5" fill="#a855f7"/>
+  <text class="label" x="242" y="132" style="fill: #e5e7eb">CSS</text>
+  <text class="small" x="394" y="132" text-anchor="end" style="fill: #9ca3af">0.8%</text>
+  <circle cx="29" cy="158" r="5" fill="#60a5fa"/>
+  <text class="label" x="42" y="162" style="fill: #e5e7eb">Mako</text>
+  <text class="small" x="194" y="162" text-anchor="end" style="fill: #9ca3af">0.1%</text>
 </svg>

@@ -21,11 +21,11 @@
   <rect x="0.5" y="0.5" width="879" height="149" rx="14" fill="#0a0a12" stroke="#2d2550"/>
   <rect x="24" y="0" width="832" height="2" fill="url(#accent)" opacity="0.8"/>
   <text class="title" x="24" y="36">CONTRIBUTION STREAK</text>
-  <text class="big" x="147" y="98" text-anchor="middle" style="fill: #22d3ee">1 day</text>
+  <text class="big" x="147" y="98" text-anchor="middle" style="fill: #22d3ee">2 days</text>
   <text class="label" x="147" y="126" text-anchor="middle">Current streak</text>
   <text class="big" x="440" y="98" text-anchor="middle" style="fill: #a855f7">2 days</text>
   <text class="label" x="440" y="126" text-anchor="middle">Longest streak</text>
-  <text class="big" x="733" y="98" text-anchor="middle" style="fill: #34d399">12</text>
+  <text class="big" x="733" y="98" text-anchor="middle" style="fill: #34d399">21</text>
   <text class="label" x="733" y="126" text-anchor="middle">Contributions (last year)</text>
   <line x1="293" y1="60" x2="293" y2="130" stroke="#2d2550"/>
   <line x1="586" y1="60" x2="586" y2="130" stroke="#2d2550"/>

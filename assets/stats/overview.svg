@@ -22,15 +22,15 @@
   <rect x="24" y="0" width="392" height="2" fill="url(#accent)" opacity="0.8"/>
   <text class="title" x="24" y="36">GITHUB STATS</text>
   <text class="label" x="24" y="74">Public repositories</text>
-  <text class="value" x="24" y="96">4</text>
+  <text class="value" x="24" y="96">5</text>
   <text class="label" x="224" y="74">Stars earned</text>
   <text class="value" x="224" y="96">0</text>
   <text class="label" x="24" y="118">Followers</text>
   <text class="value" x="24" y="140">2</text>
   <text class="label" x="224" y="118">Commits (last year)</text>
-  <text class="value" x="224" y="140">7</text>
+  <text class="value" x="224" y="140">13</text>
   <text class="label" x="24" y="162">Pull requests (last year)</text>
-  <text class="value" x="24" y="184">1</text>
+  <text class="value" x="24" y="184">3</text>
   <text class="label" x="224" y="162">Issues (last year)</text>
   <text class="value" x="224" y="184">0</text>
   <text class="small" x="24" y="210">Live data from the GitHub API. Activity counts cover 12 months.</text>
